@@ -1,34 +1,38 @@
-const Footer = () => {
-	return (
-		<div className='grid grid-cols-4 px-10 py-5'>
-			<div className='col-span-2'>
-				<h3 className='text-xl'>Contact</h3>
-				<p className='w-2/3'>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-					Obcaecati, dolor.
-				</p>
-				<p>9999999999</p>
-			</div>
-			<div className='col-span-1'>
-				<h3 className='text-xl'>Useful Links</h3>
-				<ul>
-					<li>site map</li>
-					<li>site map</li>
-					<li>site map</li>
-					<li>site map</li>
-				</ul>
-			</div>
-			<div className='col-span-1'>
-				<h3 className='text-xl'>Social links</h3>
-				<ul>
-					<li>instagram</li>
-					<li>instagram</li>
-					<li>instagram</li>
-					<li>instagram</li>
-				</ul>
-			</div>
-		</div>
-	);
-};
 
-export default Footer;
+// import React from 'react';
+import '../pages/Events.css'; 
+
+
+const Footer = () => {
+  return (
+    <footer className="footer-container">
+      <div className="footer-section">
+        <h3>Address and Phone Number</h3>
+        <p>123 Main Street, City, Country</p>
+        <p>Phone: +1234567890</p>
+      </div>
+      <div className="footer-section">
+        <h3>Useful Links</h3>
+        <ul>
+          <a href=""><li>Home</li></a>
+          <a href=""><li>About Us</li></a> 
+          <a href=""><li>Events</li></a> 
+          <a href=""><li>Contact Us</li></a> 
+
+          
+        </ul>
+      </div>
+      <div className="footer-section">
+        <h3>Social Media Links</h3>
+        <ul>
+          <a href=""><li>FaceBoook</li></a> 
+          <a href=""><li>Twitter</li></a> 
+          <a href=""><li>Instagram</li></a> 
+          <a href=""><li>LinkedIn</li></a> 
+        </ul>
+      </div>
+    </footer>
+  );
+
+
+export default Footer
